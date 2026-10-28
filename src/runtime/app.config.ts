@@ -26,7 +26,7 @@ export default {
     },
   },
   commands: {
-    dino: (app: IApplicationController) => {
+    dino: (app: any) => {
       const existing = app.getFirstWindowByModel('main')
       if (existing) {
         existing.actions.setActive(true)
