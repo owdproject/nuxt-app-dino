@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-dino-playground",
+  "name": "@owdproject/app-nuxt-dino-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,9 +8,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/app-dino": "workspace:*",
+    "@owdproject/app-nuxt-dino": "workspace:*",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/theme-nova": "^4.0.0-alpha.3",
+    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.6"
   }
 }
