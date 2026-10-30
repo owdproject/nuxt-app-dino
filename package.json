@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-nuxt-dino",
+  "name": "@owdproject/nuxt-app-dino",
   "version": "4.0.0-alpha.3",
   "description": "Chrome Dinosaur Game for your Open Web Desktop client",
   "keywords": [
@@ -8,7 +8,7 @@
     "owd-modules"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/owdproject/app-dino",
+  "homepage": "https://github.com/owdproject/nuxt-app-dino",
   "author": {
     "name": "Chris Deacy",
     "url": "https://github.com/chrisdothtml"
@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^4.4.6",
-    "@owdproject/kit-nuxt-tailwind": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-kit-tailwind": "^4.0.0-alpha.3",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "peerDependencies": {
@@ -54,7 +54,7 @@
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "^4.4.6",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.6",
     "typescript": "~6.0.3"
   },

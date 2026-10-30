@@ -16,7 +16,7 @@ Recreated by [chrisdothtml](https://github.com/chrisdothtml/chrome-dino) and ada
 ## Installation
 
 ```bash
-pnpm desktop add @owdproject/app-nuxt-dino
+pnpm desktop add @owdproject/nuxt-app-dino
 ```
 
 ## Usage

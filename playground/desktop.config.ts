@@ -1,8 +1,8 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/theme-nuxt-nova',
-  apps: ['@owdproject/app-nuxt-dino'],
+  theme: '@owdproject/nuxt-theme-nova',
+  apps: ['@owdproject/nuxt-app-dino'],
   systemBar: {
     enabled: true,
     startButton: true,
@@ -10,7 +10,7 @@ export default defineDesktopConfig({
   about: {
     title: 'Dino (playground)',
     subtitle: 'app-dino · theme-nova',
-    href: 'https://github.com/owdproject/app-dino',
+    href: 'https://github.com/owdproject/nuxt-app-dino',
     versionText: 'Nuxt Desktop',
     icons: [
       {
