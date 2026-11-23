@@ -1,6 +1,7 @@
 export function assetPath(path) {
+  const base = import.meta.env.BASE_URL || '/'
   const normalized = path.startsWith('/') ? path.slice(1) : path
-  return `/${normalized}`
+  return `${base}${normalized}`
 }
 
 export function getImageData(image) {
