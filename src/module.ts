@@ -25,9 +25,13 @@ export default defineNuxtModule({
 
     // add public folder
 
-    nuxt.options.nitro.publicAssets = [{
-      dir: resolve(('./public'))
-    }]
+    // Keep assets registered by the host and other modules. App assets live
+    // under /dino so Nitro can serve them alongside the desktop's public files.
+    nuxt.options.nitro.publicAssets ??= []
+    nuxt.options.nitro.publicAssets.push({
+      dir: resolve('./public/dino'),
+      baseURL: '/dino',
+    })
 
     // configure tailwind
 
